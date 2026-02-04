@@ -23,13 +23,14 @@ def my_asc(*numbers):
     # order.append(a)
             
     # print(order)
-            
 
-    for b in range(i):
-        for c in range(b+1,i):
-            if num[b]>num[c]:
-                num[b],num[c]=num[c],num[b]
+# * 
+
+#     for b in range(i):
+#         for c in range(b+1,i):
+#             if num[b]>num[c]:
+#                 num[b],num[c]=num[c],num[b]
                        
     
-    print(num)
-my_asc(5,8,3,9)
+#     print(num)
+# my_asc(5,8,3,9)
