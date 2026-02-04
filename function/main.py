@@ -18,3 +18,47 @@
 # *
 # total=lambda x,y:x+y
 # print(total(8,8))
+
+def marks():
+    sub1=int(input("Enter marks for subject1: "))
+    sub2=int(input("Enter marks for subject2: "))
+    sub3=int(input("Enter marks for subject3: "))
+    sub4=int(input("Enter marks for subject4: "))
+    sub5=int(input("Enter marks for subject5: "))
+    return [sub1,sub2,sub3,sub4,sub5]
+def total():
+    sub1,sub2,sub3,sub4,sub5=marks()
+    return sub1+sub2+sub3+sub4+sub5
+def percentage():
+    a=total()
+    p=a/5
+    return [a,p]
+def division():
+    per=percentage()
+    y=per[1]
+    grade=""
+    
+    if y<40:
+        grade="F"
+    elif y>40 and y<50:
+        grade="C"
+    elif y>50 and y<65:
+        grade="B"
+    elif y>65 and y<80:
+        grade="A"
+    else:
+        grade="A+"
+    a=per[0]
+    return [a,y,grade]
+
+def result():
+    res=division()
+    print("total marks:",res[0])
+    print("Percentage:",res[1])
+    print("Grade:",res[2])
+    # tot=total()
+    # print(tot)
+
+result()
+
+

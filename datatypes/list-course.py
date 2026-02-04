@@ -1,4 +1,5 @@
-# fruits=['apple','orange','mango','banana']
+fruits=['apple','orange','mango','banana']
+print(fruits)
 # # print(dir(fruits))
 # # fruits.extend('123')
 # # print(dir(fruits))
@@ -18,9 +19,9 @@
 # print(numbers)
 
 # set
-vehicles=['toyota','hyundai','tesla']
+# vehicles=['toyota','hyundai','tesla']
 # print(type(vehicles))
 # print(vehicles.id('tesla'))
 # print(dir(vehicles))
-a=5
-print(dir(a))
+# a=5
+# print(dir(a))
