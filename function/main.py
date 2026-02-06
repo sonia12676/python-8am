@@ -89,3 +89,36 @@
 # tot=lambda x,y: x+y
 # print(tot(4,5))
 # *
+# def login():
+#     username=input("Enter your username: ")
+#     password=input("Enter your password: ")
+#     if username=="admin" and password=="admin123":
+#         print("welcome",username)
+#     else:
+#         option=input("Do you want to try again? yes/p: ")
+#         if option=='yes':
+#             login()
+#         else:
+#             pass
+
+
+# print(login())
+# *
+# def login():
+#     return "admin"
+
+# name=input("Enter your name: ")
+
+# if name==login():
+#     print("welcome admin")
+# else:
+#     print("Access denied")
+# *
+people=["ram","shyam","hari","ram"]
+def search_name(name_):
+    for name in people:
+        if name==name_:
+            print(name)
+
+
+search_name("ram")

@@ -1,0 +1,16 @@
+Name=ram
+Nepali=45	English=56	Science=78	Math=67	Computer=56
+Total=302
+Percentage=60.4
+Name=shyam
+Nepali=67	English=45	Science=34	Math=89	Computer=67
+Total=302
+Percentage=60.4
+Name=gita
+Nepali=54	English=98	Science=76	Math=45	Computer=56
+Total=329
+Percentage=65.8
+Name=hari
+Nepali=67	English=78	Science=89	Math=56	Computer=45
+Total=335
+Percentage=67.0
